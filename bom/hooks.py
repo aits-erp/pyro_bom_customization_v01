@@ -44,6 +44,14 @@ app_license = "mit"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+# Custom BOM JavaScript
+doctype_js = {
+    "BOM": "public/js/bom.js"
+}
+
+override_doctype_class = {
+    "BOM": "bom.overrides.bom.CustomBOM"
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
