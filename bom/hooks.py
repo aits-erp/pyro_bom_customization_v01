@@ -23,5 +23,13 @@ fixtures = [
         "filters": [
             ["dt", "in", ["BOM", "Work Order"]]
         ]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [
+            ["doc_type", "=", "BOM"],
+            ["field_name", "=", "item"],
+            ["property", "=", "reqd"]
+        ]
     }
 ]
